@@ -23,3 +23,30 @@
   padding: 10px 20px;
 }
 
+.navbar-compensation {
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
+
+#menu {
+  margin: 40px 0;
+}
+
+#menu h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.accordion-item h2 button {
+  font-size: 2rem;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  #menu {
+    margin: 40px 120px;
+  }
+
+}
