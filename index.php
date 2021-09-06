@@ -61,20 +61,27 @@
         </div>
     </div>  
   </section>
-
-  <?php 
-
-    if( have_posts() ) {
-      while( have_posts() ) {
-        the_post();
-
-        echo '<p>' . get_the_content() . '</p>';
-      }
-    }
-
-  ?>
-
 </div>
+
+
+<section id="contact">
+  <div class="container-md navbar-compensation">
+    <h1>Contact us</h1>
+    <?php echo do_shortcode('[contact-form-7 id="33" title="Contact form 1"]'); ?>
+  </div>
+</section>
+
+
+<?php 
+  if( have_posts() ) {
+    while( have_posts() ) {
+      the_post();
+
+      the_content();
+    }
+  }
+?>
+
 
 
 

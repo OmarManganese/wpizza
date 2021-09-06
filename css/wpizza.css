@@ -43,6 +43,36 @@
 }
 
 
+#contact {
+  background-color: #dadada;
+  padding: 40px 0 20px 0;
+  margin-top: 20px;
+}
+
+#contact h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact form {
+  max-width: 300px;
+  margin: auto;
+}
+
+#contact form input[type=text],
+#contact form input[type=email] {
+  width: 300px;
+}
+
+#contact form input[type=submit] {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
 @media only screen and (min-width: 992px) {
 
   #menu {
