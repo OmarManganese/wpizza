@@ -72,17 +72,16 @@
 </section>
 
 
-<?php 
-  if( have_posts() ) {
-    while( have_posts() ) {
-      the_post();
-
-      the_content();
-    }
-  }
-?>
-
-
+<section id="where-we-are">
+  <div class="container-md navbar-compensation">
+    <h1>Where we are</h1>
+    <iframe width="90%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=8.635447025299074%2C45.001231187943894%2C8.643665313720705%2C45.00555519849705&amp;layer=mapnik&amp;marker=45.00339323401596%2C8.639556169509888" style="border: 1px solid black"></iframe>
+    <br/>
+    <small>
+      <a href="https://www.openstreetmap.org/?mlat=45.00339&amp;mlon=8.63956#map=17/45.00339/8.63956">Visualizza mappa ingrandita</a>
+    </small>
+  </div>
+</section>
 
 
 <?php get_footer(); ?>

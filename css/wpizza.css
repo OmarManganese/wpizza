@@ -54,23 +54,41 @@
   text-align: center;
 }
 
-#contact form {
-  max-width: 300px;
-  margin: auto;
+.wpcf7 {
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
-#contact form input[type=text],
-#contact form input[type=email] {
-  width: 300px;
+.wpcf7,
+.wpcf7-form,
+.wpcf7-form label,
+.wpcf7-form input[type=text],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+  width: 100% !important;
+  max-width: 400px !important;
 }
 
-#contact form input[type=submit] {
+.wpcf7-form input[type=submit],
+iframe {
   display: block;
   margin: 0 auto;
 }
 
 
+#where-we-are {
+  padding: 40px 0;
+}
 
+#where-we-are h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+small {
+  display: block;
+  text-align: center;
+}
 
 
 @media only screen and (min-width: 992px) {
