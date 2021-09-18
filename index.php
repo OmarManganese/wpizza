@@ -3,7 +3,7 @@
 
 <section id="menu" class="navbar-compensation">
   <div class="container-md section-container">
-    <h1>Menù</h1>
+    <h1>Menu</h1>
     <?php  
 
     $post_type = 'pizza';
@@ -61,7 +61,6 @@
     </div>
   </div>
 </section>  
-
 
 
 <section id="contact" class="navbar-compensation">

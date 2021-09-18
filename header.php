@@ -16,7 +16,18 @@
   <body>
     <header>
       <div class="header-img-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/header-bckg-img-p.jpg"/>
+        <img 
+          src="<?php echo get_template_directory_uri(); ?>/img/header-bckg-img-3840.jpg"
+          srcset="
+            <?php echo get_template_directory_uri(); ?>/img/header-bckg-img-640.jpg 640w,
+            <?php echo get_template_directory_uri(); ?>/img/header-bckg-img-1280.jpg 1280w,
+            <?php echo get_template_directory_uri(); ?>/img/header-bckg-img-1920.jpg 1920w,
+            <?php echo get_template_directory_uri(); ?>/img/header-bckg-img-2560.jpg 2560w,
+            <?php echo get_template_directory_uri(); ?>/img/header-bckg-img-3200.jpg 3200w,
+            <?php echo get_template_directory_uri(); ?>/img/header-bckg-img-3840.jpg 3840w
+          "
+          sizes="100vw"
+        />
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">WPizza</a>
