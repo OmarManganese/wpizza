@@ -12,7 +12,7 @@
 <body>
   <div class="pnf-container">
     <h1>404: Page not found</h1>
-    <h2>Turn to the <a href="/wpizza">Homepage</a></h2>
+    <h2>Turn to the <a href="<?php echo home_url(); ?>">Homepage</a></h2>
   </div>
 </body>
 </html>

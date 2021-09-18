@@ -38,7 +38,7 @@ function pizza_custom_post_type (){
 			'revisions',
 		),
 		'menu_position' => 5,
-    'menu_icon' => '',
+    'menu_icon' => get_template_directory_uri() . '/img/pizza-posts-icon.png',
 		'exclude_from_search' => false
 	);
 	register_post_type('pizza',$args);
