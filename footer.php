@@ -1,5 +1,5 @@
     <footer>
-      <h1>Footer</h1>
+      <p>Made with WordPress</p>
     </footer>
 
     <!-- Bootstrap Bundle with Popper -->
