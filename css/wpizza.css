@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header-img-container {
+  height: 100vh;
+}
+
+.header-img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.navbar {
+  background-color: #000000cc !important;
+  padding: 10px 20px;
+}
+
+.navbar-compensation {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.section-container {
+  padding: 40px 20px;
+}
+
+
+/* #menu {
+  background-color: #dadada;
+} */
+
+#menu h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.accordion-item h2 button {
+  font-size: calc(1.325rem + .9vw);
+}
+
+
+.contact-section-bckg-color {
+  background-color: #dadada;
+}
+
+#contact h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wpcf7 {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wpcf7,
+.wpcf7-form,
+.wpcf7-form label,
+.wpcf7-form input[type=text],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+  width: 100% !important;
+  max-width: 400px !important;
+}
+
+.wpcf7-form input[type=submit],
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+
+#where-we-are h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+small {
+  display: block;
+  text-align: center;
+}
+
+
+footer {
+  width: 100%;
+  padding: 18px 32px;
+  background-color: #000000;
+}
+
+footer p {
+  color: #ffffff;
+  margin: 0;
+}
+
+
+.pnf-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  width: 100%;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  #menu {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+}
